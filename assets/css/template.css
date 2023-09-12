@@ -7,7 +7,7 @@ body {
 nav {
     display: flex;
     justify-content: center;
-    width: 1369px;
+    max-width: 100%;
     height: 100px;
     background-color: rgb(37, 68, 111);
 }
@@ -63,26 +63,31 @@ section {
     display: flex;
     justify-content: center;
     width: 1369px;
-    height: 550px;
+    max-width: 100%;
+    height: 570px;
     background-color: rgb(37, 68, 111);
     
 }  
 
 .container2 {
-    margin-top: 40px;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 10px;
+    flex-direction:column;
     max-width: 100%;
     width: 1200px;
     
 }  
+.titulo {
+    
+}
+
+.conteudotitulo div {
+    text-align: center;
+}
 
 .conteudotitulo {
     color: white;
     font-weight: bold;
-    font-size: 80px;
+    font-size: 65px;
 }
 
 .botaoconteudo {
@@ -97,8 +102,75 @@ section {
 
 .imagemconteudo {
     display: flex;
-    width: 1200px;
-    justify-content: center;
-   
+    justify-content: space-around;
+    align-items: end;
+    height: 320px;
+    
     
 }
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1369px;
+    max-width: 100%;
+    height: 60px;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    
+}  
+
+figure img {
+    display: flex;
+    margin: auto;
+}
+
+.botao2 {
+    margin: 20px;
+    background-color: rgb(250, 106, 140);
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 12px;
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.blocos {
+    display: flex;
+    height: 130px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.bloco1, .bloco2 , .bloco3, .bloco4 {
+    margin: 10px;
+    width: 250px;
+    max-height: 120px;
+    
+}
+
+.blocotitulo {
+    font-size: 17px;
+    color: rgb(77, 137, 229);
+}
+.blococonteudo {
+    font-size: 15px;
+    font-weight: lighter;
+    color: gray;
+} 
+
+.section3 {
+    display: flex;
+    width: 1369px;
+    max-width: 100%;
+    height: 130px;
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-top: 1px solid rgb(203, 203, 203);
+    justify-content: space-around;
+    
+}  
